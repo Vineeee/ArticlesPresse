@@ -13,6 +13,6 @@ if not exist "bin\com\example\app\Main.class" (
 )
 
 REM Exécuter l'application
-java -cp "bin;lib/*" com.example.app.Main
+C:\Java\jdk-24.0.2\bin\java -cp "bin;lib/*" com.example.app.Main
 
 pause

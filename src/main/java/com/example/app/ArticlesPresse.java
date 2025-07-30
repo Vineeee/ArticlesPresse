@@ -639,9 +639,9 @@ public class ArticlesPresse extends JFrame {
             
             // Numérotation
             g2d.setColor(Color.WHITE);
-            g2d.fillOval(x - 10, y - 10, 20, 20);
+            g2d.fillRect(x - 10, y - 10, 20, 20);
             g2d.setColor(color);
-            g2d.drawOval(x - 10, y - 10, 20, 20);
+            g2d.drawRect(x - 10, y - 10, 20, 20);
             g2d.setFont(new Font("Arial", Font.BOLD, 12));
             FontMetrics fm = g2d.getFontMetrics();
             String numberStr = String.valueOf(number);
